@@ -11,38 +11,34 @@ This research is supported by the project **DIMOTY**, funded by the Autonomous P
 
 ## Overview
 
-The `db_survey` dataset consists of high-precision georeferenced images captured in various excavation scenarios. The dataset is designed for use in research and analysis related to surveying, mapping, and geospatial applications. The images are georeferenced with centimeter-level accuracy, and the GPS data is embedded directly in the EXIF metadata of each image.
+The `db_survey` dataset consists of high-precision georeferenced images captured in various scenarios, with a focus on outdoor environments. The dataset is designed for research and analysis in fields like surveying, mapping, and geospatial applications. The images are georeferenced with centimeter-level accuracy, and the GPS data is embedded directly in the EXIF metadata of each image.
 
 Where possible, the images have been captured in an **object-centric** manner, focusing on specific objects of interest to ensure detailed and centered perspectives.
 
-- **Dataset Size**: 4.26 GB Outdoor + 0.368 GB Indoor
-- **Download Link**: [Download the `db_survey` dataset here]([https://arcodagis-my.sharepoint.com/:f:/g/personal/giulia_bruscagin_arcoda_it/EhZJUU1lfvVPt_WiBi6QPBsBCAXuHMRH9rZFVhKyXPiU6w?e=5JuOyV]) 
+- **Dataset Size**: Approx. 5GB
+- **[Download the `db_survey` dataset](https://example.com/download)** *(Replace this with the actual link)*
 
 The dataset includes:
-- **10 excavation scenarios**
-- **4 park scenarios** (part of the outdoor scenarios)
+- **10 outdoor excavation scenarios**
+- **4 park scenarios** (part of the outdoor environments)
 - **2 indoor scenarios**
 
 Each image has a resolution of **1280x720 pixels** and is stored in formats suitable for geospatial analysis.
 
 ## Dataset Composition
 
-1. **Excavation Scenarios**
-   - **Total**: 10 scenarios
-   - **Description**: Georeferenced images of excavation sites with high precision. These images are useful for detailed analysis of terrain, structures, and other physical characteristics of excavation areas.
+1. **Outdoor Scenarios**
+   - **Total**: 14 outdoor scenarios, which include:
+     - **Excavation Scenarios**: 10 scenarios focusing on excavation sites.
+     - **Park Scenarios**: 4 scenarios capturing different sections of park areas.
+   - **Description**: The outdoor scenarios feature natural and man-made landscapes, including detailed imagery of excavation sites and parks. These scenarios provide useful geospatial data for analyzing terrain, vegetation, and other physical structures.
    - **GPS Data**: Embedded in EXIF metadata for each image.
-   - **Acquisition Mode**: Object-centric where possible, focusing on key objects of interest for detailed analysis.
+   - **Acquisition Mode**: Object-centric where possible, with attention to key objects of interest, such as excavation artifacts or park features.
 
-2. **Outdoor Scenarios (Including Park Scenarios)**
-   - **Total**: 4 park scenarios, as part of the outdoor scenarios.
-   - **Description**: These scenarios cover park areas with natural and man-made features, providing a detailed view of open outdoor spaces.
-   - **Georeferencing**: The images are georeferenced with centimeter-level accuracy, with GPS coordinates stored in EXIF metadata.
-   - **Acquisition Mode**: Object-centric captures where applicable.
-
-3. **Indoor Scenarios**
+2. **Indoor Scenarios**
    - **Total**: 2 indoor scenarios
-   - **Description**: Indoor scenarios include detailed imagery of enclosed spaces, capturing various structures, equipment, and environments under controlled lighting and conditions.
-   - **GPS Data**: Even though these scenarios are indoors, georeferenced data is included where applicable.
+   - **Description**: The indoor scenarios include imagery of enclosed spaces, featuring different structures, equipment, and environments under controlled lighting conditions.
+   - **GPS Data**: Georeferenced data is included where applicable.
    - **Acquisition Mode**: Object-centric focus on interior elements of interest.
 
 ## Image Specifications

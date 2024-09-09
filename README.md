@@ -15,7 +15,7 @@ The `db_survey` dataset consists of high-precision georeferenced images captured
 
 Where possible, the images have been captured in an **object-centric** manner, focusing on specific objects of interest to ensure detailed and centered perspectives.
 
-- **Dataset Size**: 4.26GB Outdoor + 368 Indoor
+- **Dataset Size**: 4.26 GB Outdoor + 0.368 GB Indoor
 - **Download Link**: [Download the `db_survey` dataset here]([https://example.com/download](https://arcodagis-my.sharepoint.com/:f:/g/personal/giulia_bruscagin_arcoda_it/EhZJUU1lfvVPt_WiBi6QPBsBCAXuHMRH9rZFVhKyXPiU6w?e=5JuOyV)) 
 
 The dataset includes:

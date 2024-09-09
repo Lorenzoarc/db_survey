@@ -1,6 +1,7 @@
 # db_survey 
 by
 Lorenzo Orlandi,
+Giulia Bruscagin,
 Daniele Sevengnani,
 Nicola Conci
 
@@ -15,7 +16,7 @@ The `db_survey` dataset consists of high-precision georeferenced images captured
 
 Where possible, the images have been captured in an **object-centric** manner, focusing on specific objects of interest to ensure detailed and centered perspectives.
 
-- **Dataset Size**: Approx. 5GB
+- **Dataset Size**: Outdoor 4.25 GB + Indoor 0.328 GB 
 - **[Download the `db_survey` dataset](https://arcodagis-my.sharepoint.com/:f:/g/personal/giulia_bruscagin_arcoda_it/EhZJUU1lfvVPt_WiBi6QPBsBCAXuHMRH9rZFVhKyXPiU6w?e=yY4hN1)
 
 The dataset includes:

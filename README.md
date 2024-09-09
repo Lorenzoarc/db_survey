@@ -45,8 +45,7 @@ Each image has a resolution of **1280x720 pixels** and is stored in formats suit
 ## Image Specifications
 
 - **Resolution**: 1280x720 pixels
-- **Georeferencing**: Centimeter-level accuracy
-- **GPS Data**: Embedded in EXIF metadata for easy extraction
+- **Georeferencing**: Centimeter-level accuracy(Outdoor scenario), Reconstructed with Vi-Slam (Indoor Scenario) Embedded in EXIF metadata for easy extraction
 - **Acquisition Method**: Object-centric captures where possible
 - **Formats**: Images are provided in standard formats (e.g., GeoTIFF, JPEG with EXIF) for easy integration into geospatial software.
 

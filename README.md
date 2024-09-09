@@ -13,6 +13,11 @@ This research is supported by the project **DIMOTY**, funded by the Autonomous P
 
 The `db_survey` dataset consists of high-precision georeferenced images captured in various excavation scenarios. The dataset is designed for use in research and analysis related to surveying, mapping, and geospatial applications. The images are georeferenced with centimeter-level accuracy, and the GPS data is embedded directly in the EXIF metadata of each image.
 
+Where possible, the images have been captured in an **object-centric** manner, focusing on specific objects of interest to ensure detailed and centered perspectives.
+
+- **Dataset Size**: 4.26GB Outdoor + 368 Indoor
+- **Download Link**: [Download the `db_survey` dataset here]([https://example.com/download](https://arcodagis-my.sharepoint.com/:f:/g/personal/giulia_bruscagin_arcoda_it/EhZJUU1lfvVPt_WiBi6QPBsBCAXuHMRH9rZFVhKyXPiU6w?e=5JuOyV)) 
+
 The dataset includes:
 - **10 excavation scenarios**
 - **4 park scenarios** (part of the outdoor scenarios)
@@ -26,22 +31,26 @@ Each image has a resolution of **1280x720 pixels** and is stored in formats suit
    - **Total**: 10 scenarios
    - **Description**: Georeferenced images of excavation sites with high precision. These images are useful for detailed analysis of terrain, structures, and other physical characteristics of excavation areas.
    - **GPS Data**: Embedded in EXIF metadata for each image.
+   - **Acquisition Mode**: Object-centric where possible, focusing on key objects of interest for detailed analysis.
 
 2. **Outdoor Scenarios (Including Park Scenarios)**
    - **Total**: 4 park scenarios, as part of the outdoor scenarios.
    - **Description**: These scenarios cover park areas with natural and man-made features, providing a detailed view of open outdoor spaces.
    - **Georeferencing**: The images are georeferenced with centimeter-level accuracy, with GPS coordinates stored in EXIF metadata.
+   - **Acquisition Mode**: Object-centric captures where applicable.
 
 3. **Indoor Scenarios**
    - **Total**: 2 indoor scenarios
    - **Description**: Indoor scenarios include detailed imagery of enclosed spaces, capturing various structures, equipment, and environments under controlled lighting and conditions.
    - **GPS Data**: Even though these scenarios are indoors, georeferenced data is included where applicable.
+   - **Acquisition Mode**: Object-centric focus on interior elements of interest.
 
 ## Image Specifications
 
 - **Resolution**: 1280x720 pixels
 - **Georeferencing**: Centimeter-level accuracy
 - **GPS Data**: Embedded in EXIF metadata for easy extraction
+- **Acquisition Method**: Object-centric captures where possible
 - **Formats**: Images are provided in standard formats (e.g., GeoTIFF, JPEG with EXIF) for easy integration into geospatial software.
 
 ### Example of EXIF GPS Data Extraction
